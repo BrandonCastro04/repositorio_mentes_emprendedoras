@@ -119,7 +119,7 @@ export default {
     };
   },
   methods: {
-    
+    // Método para regresar a la página anterior usando Vue Router
     goBack() {
       this.$router.go(-1); // Navega hacia la página anterior en el historial
     }
@@ -128,16 +128,18 @@ export default {
 </script>
 
 <style scoped>
+/* Estilos previos */
 
+/* Botón de "Regresar" más pequeño y a la derecha */
 .back-button {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 20px; /* Lo mueve a la derecha */
   background-color: #4CAF50;
   color: white;
-  padding: 8px 15px; 
+  padding: 8px 15px; /* Tamaño más pequeño */
   border: none;
-  font-size: 14px; 
+  font-size: 14px; /* Texto más pequeño */
   border-radius: 5px;
   cursor: pointer;
   z-index: 10;
@@ -152,10 +154,10 @@ export default {
   outline: none;
 }
 
-
+/* Título con fondo animado y borde dinámico */
 .title-container {
   position: relative;
-  height: 150px; 
+  height: 150px; /* Menos grueso el fondo */
   background-color: #7a7a7a; /* Gris más claro */
   display: flex;
   justify-content: center;
@@ -164,7 +166,7 @@ export default {
   margin-bottom: 60px; /* Más espacio entre el título y los botones */
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
-  animation: borderAnimation 4s infinite; 
+  animation: borderAnimation 4s infinite; /* Animación para el borde */
 }
 
 @keyframes borderAnimation {
@@ -173,8 +175,8 @@ export default {
     border-bottom-color: #4CAF50;
   }
   50% {
-    border-top-color: #616161; 
-    border-bottom-color: #616161; 
+    border-top-color: #616161; /* Gris oscuro */
+    border-bottom-color: #616161; /* Gris oscuro */
   }
   100% {
     border-top-color: #4CAF50;
@@ -257,8 +259,8 @@ button.active {
   line-height: 1.8; /* Interlineado más espacioso */
   margin-top: 20px;
   position: relative;
-  border-radius: 20px; 
-  overflow: hidden; 
+  border-radius: 20px; /* Bordes redondeados */
+  overflow: hidden; /* Asegura que las imágenes no se salgan del contenedor */
 }
 
 /* Fondo para cada sección con fondo más oscuro y legibilidad */
