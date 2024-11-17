@@ -26,7 +26,7 @@ const routes = [
   { path: '/plan-presupuesto', name: 'PlanPresupuesto', component: PlanPresupuestoView },
   { path: '/encargados', name: 'Encargados', component: EncargadosComponent },
   { path: '/estructura', name: 'EstructuraProyecto', component: EstructuraProyectoView },
-  { path: '/poblacion-beneficiada', name: 'PoblacionBeneficiada', component: PoblacionBeneficiadaView },
+  { path: '/poblacion', name: 'PoblacionBeneficiada', component: PoblacionBeneficiadaView },
   { path: '/objetivos-metas', name: 'ObjetivosMetas', component: ObjetivosMetasView },
   { path: '/ubicacion-geografica', name: 'UbicacionGeografica', component: UbicacionGeograficaView },
   { path: '/politicas', name: 'Politicas', component: Politicas },
