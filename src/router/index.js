@@ -9,7 +9,7 @@ import PoblacionBeneficiadaView from '@/views/PoblacionBeneficiada.vue';
 import ObjetivosMetasView from '@/views/ObjetivosMetas.vue';
 import UbicacionGeograficaView from '@/views/UbicacionGeografica.vue';
 import Politicas from '@/views/Politicas.vue';
-import MetodologiaView from '@/views/Metodologia.vue';
+import MetodologiaView from '@/views/MetodologiaVista.vue';
 import RecursosDisciplinasView from '@/views/RecursosDisciplinas.vue';
 import EvaluacionComponent from '@/views/Evaluacion.vue';
 import AccionesProyectoView from '@/views/AccionesProyecto.vue';
