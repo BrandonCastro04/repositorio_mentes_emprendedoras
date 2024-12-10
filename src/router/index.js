@@ -36,7 +36,7 @@ const routes = [
   { path: '/acciones-proyecto', name: 'AccionesProyecto', component: AccionesProyectoView },
   { path: '/objeto-gasto', name: 'ObjetoGasto', component: ObjetoGastoView },
   { path: '/regimen-becario', name: 'RegimenBecario', component: RegimenBecarioView },
-  { path: '/cronograma-actividades', name: 'CronogramaActividades', component: CronogramaActividadesView }
+  { path: '/cronograma', name: 'CronogramaActividades', component: CronogramaActividadesView }
 ];
 
 const router = createRouter({
